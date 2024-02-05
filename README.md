@@ -15,15 +15,20 @@ The data was scraped in several steps to collect comprehensive information. The 
     - It allows users to quickly identify population density and variations across different regions.
 
 2. **Heatmap:**
-    - The heatmap displays world population data per country.
+    - The heatmap displays world population data per country for the selected year.
     - It offers an alternative perspective, highlighting concentration and distribution patterns.
 
 3. **Line Chart - Total World Population Progress:**
     - The line chart illustrates the progression of total world population over the years.
     - It helps viewers understand the overall trend and growth rate.
 
-4. **Tables:**
-    - Several tables are included to showcase top countries in various categories:
+
+4. **Gains and Losses**
+   - countries with high inbound/ outbound migration for selected year
+5. **Donat chart**
+   - percentage of countries with annual inbound/ outbound migration > 50,000
+6. **Tables:**
+    - Several tables are included to showcase top countries in various categories for the year 2023 only:
         - Land Area (km²)
         - Fertility Rate (%)
         - Median Age
