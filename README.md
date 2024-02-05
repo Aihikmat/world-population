@@ -38,15 +38,19 @@ The data used in this project is sourced from [Worldometer](https://www.worldome
 1. Clone the repository:
    ```bash
    git clone https://github.com/Aihikmat/world-population-visualization.git
-2. pip install -r requirements.txt
-3. streamlit run str_app.py
+2. Install the requirements
+   ```bash
+   pip install -r requirements.txt
+3. run the streamlit app str_app.py :
+   ```bash
+   streamlit run str_app.py
 
-4. # Dependencies
+## Dependencies
 
 - Python 3.x
 - Required Python packages listed in `requirements.txt`
 
-# Credits
+## Credits
 
 - **Data Source:** Worldometer
 - **Visualization Tools:** Matplotlib, Plotly, Pandas, Seaborn
