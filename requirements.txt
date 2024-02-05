@@ -1,7 +1,7 @@
 # requirements.txt
 
 # Python version 3.8 or above
-python>=3.8.0
+python>=3
 
 # Specific versions for additional packages
 streamlit>=1.29.0
