@@ -1,0 +1,8 @@
+# requirements.txt
+
+# packages
+python>=3.8.0
+streamlit
+pandas
+altair
+plotly
