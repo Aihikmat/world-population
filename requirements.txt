@@ -1,8 +1,10 @@
 # requirements.txt
 
-# packages
+# Python version 3.8 or above
 python>=3.8.0
-streamlit
-pandas
-altair
-plotly
+
+# Specific versions for additional packages
+streamlit>=1.29.0
+pandas>=2.0.3
+altair>=4.2.0
+plotly>=5.5.0
