@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project visualizes world population data from 1955 to 2023, obtained from Worldometer through web scraping. Multiple scraping operations were performed due to the data being distributed across different tables on the website.
+This project visualizes world population data from 1955 to 2023, obtained from Worldometer through web scraping. Multiple scraping operations were performed due to the data being distributed across different tables on the website. Either clone this repo or use the streamlit online version to see the deployment in browser using this link https://world-population-vis.streamlit.app/
 
 ## Data Retrieval
 
