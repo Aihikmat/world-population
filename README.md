@@ -53,7 +53,7 @@ The data used in this project is sourced from [Worldometer](https://www.worldome
 ## Credits
 
 - **Data Source:** Worldometer
-- **Visualization Tools:** Matplotlib, Plotly, Pandas, Seaborn
+- **Visualization Tools:** Plotly, Altair
 
 # License
 
