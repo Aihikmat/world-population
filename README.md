@@ -1,98 +1,57 @@
-# world-population
+# World Population Visualization
 
-\documentclass[a4paper, 12pt]{article}
-
-\usepackage{enumitem}
-\usepackage{hyperref}
-
-\title{World Population Visualization}
-\author{Your Name}
-\date{\today}
-
-\begin{document}
-
-\maketitle
-
-\section*{Overview}
+## Overview
 
 This project visualizes world population data from 1955 to 2023, obtained from Worldometer through web scraping. Multiple scraping operations were performed due to the data being distributed across different tables on the website.
 
-\section*{Data Retrieval}
+## Data Retrieval
 
 The data was scraped in several steps to collect comprehensive information. The following visualizations were then created using the retrieved data:
 
-\section*{Visualizations}
+## Visualizations
 
-\begin{enumerate}
-    \item \textbf{Choropleth Map:}
-        \begin{itemize}
-            \item The choropleth map provides a visual representation of world population per country.
-            \item It allows users to quickly identify population density and variations across different regions.
-        \end{itemize}
-    
-    \item \textbf{Heatmap:}
-        \begin{itemize}
-            \item The heatmap displays world population data per country.
-            \item It offers an alternative perspective, highlighting concentration and distribution patterns.
-        \end{itemize}
-    
-    \item \textbf{Line Chart - Total World Population Progress:}
-        \begin{itemize}
-            \item The line chart illustrates the progression of total world population over the years.
-            \item It helps viewers understand the overall trend and growth rate.
-        \end{itemize}
-    
-    \item \textbf{Tables:}
-        \begin{itemize}
-            \item Several tables are included to showcase top countries in various categories:
-                \begin{itemize}
-                    \item Land Area (km²)
-                    \item Fertility Rate (\%)
-                    \item Median Age
-                    \item Urban Population (\%)
-                \end{itemize}
-        \end{itemize}
-\end{enumerate}
+1. **Choropleth Map:**
+    - The choropleth map provides a visual representation of world population per country.
+    - It allows users to quickly identify population density and variations across different regions.
 
-\section*{Data Sources}
+2. **Heatmap:**
+    - The heatmap displays world population data per country.
+    - It offers an alternative perspective, highlighting concentration and distribution patterns.
 
-The data used in this project is sourced from \href{https://www.worldometers.info/}{Worldometer}, a reliable and widely-used platform for real-time global statistics.
+3. **Line Chart - Total World Population Progress:**
+    - The line chart illustrates the progression of total world population over the years.
+    - It helps viewers understand the overall trend and growth rate.
 
-\section*{Usage}
+4. **Tables:**
+    - Several tables are included to showcase top countries in various categories:
+        - Land Area (km²)
+        - Fertility Rate (%)
+        - Median Age
+        - Urban Population (%)
 
-\begin{enumerate}
-    \item Clone the repository:
-    \begin{verbatim}
-        git clone https://github.com/yourusername/world-population-visualization.git
-    \end{verbatim}
-    
-    \item Install dependencies:
-    \begin{verbatim}
-        pip install -r requirements.txt
-    \end{verbatim}
-    
-    \item Run the visualization script:
-    \begin{verbatim}
-        python visualize_population.py
-    \end{verbatim}
-\end{enumerate}
+## Data Sources
 
-\section*{Dependencies}
+The data used in this project is sourced from [Worldometer](https://www.worldometers.info/), a reliable and widely-used platform for real-time global statistics.
 
-\begin{itemize}
-    \item Python 3.x
-    \item Required Python packages listed in \texttt{requirements.txt}
-\end{itemize}
+## Usage
 
-\section*{Credits}
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Aihikmat/world-population-visualization.git
+2. pip install -r requirements.txt
+3. streamlit run str_app.py
 
-\begin{itemize}
-    \item Data Source: \href{https://www.worldometers.info/}{Worldometer}
-    \item Visualization Tools: \href{https://matplotlib.org/}{Matplotlib}, \href{https://plotly.com/}{Plotly}, \href{https://pandas.pydata.org/}{Pandas}, \href{https://seaborn.pydata.org/}{Seaborn}
-\end{itemize}
+4. # Dependencies
 
-\section*{License}
+- Python 3.x
+- Required Python packages listed in `requirements.txt`
 
-This project is licensed under the \href{LICENSE}{MIT License}.
+# Credits
 
-\end{document}
+- **Data Source:** Worldometer
+- **Visualization Tools:** Matplotlib, Plotly, Pandas, Seaborn
+
+# License
+
+This project is licensed under the [MIT License](LICENSE).
+
